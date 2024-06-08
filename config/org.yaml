@@ -1,0 +1,868 @@
+orgs:
+  diginfra:
+    name: DigInfra
+    description: DigInfra is Container Native Runtime Security
+
+    default_repository_permission: read
+    has_organization_projects: true
+    has_repository_projects: true
+    members_can_create_repositories: false
+
+    admins:
+      - caniszczyk
+      - ldegio
+      - leogr
+      - mstemm
+      - poiana
+      - thelinuxfoundation
+      - jasondellaluce
+      - LucaGuerra
+      - FedeDP
+
+    members:
+      - admiral0
+      - ahmedameenaim
+      - alacuku
+      - Andreagit97
+      - araujof
+      - bencer
+      - cpanato
+      - cappellinsamuele
+      - darryk10
+      - dwindsor
+      - ewilderj
+      - EXONER4TED
+      - fjogeleit
+      - gnosek
+      - hbrueckner
+      - hmadison
+      - incertum
+      - Issif
+      - jonahjon
+      - Kaizhe
+      - krisnova
+      - leodido
+      - loresuso
+      - Lowaiz
+      - maxgio92
+      - mfdii
+      - mmat11
+      - Molter73
+      - rohith-raju
+      - sboschman
+      - terylt
+      - therealbobo
+      - vjjmiras
+      - zuc
+      
+    repos:
+      .github:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Default community health files
+        has_projects: false
+        has_wiki: false
+      advocacy:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: Advocacy machinery
+        has_projects: true
+      charts:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Community managed Helm charts for running DigInfra with Kubernetes
+        has_projects: true
+        has_wiki: false
+      client-go:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Go client and SDK for DigInfra
+        has_projects: true
+      client-py:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: Python client and SDK for DigInfra
+        has_projects: true
+        has_wiki: false
+      client-rs:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: The rust language implementation of the DigInfra client
+        has_projects: true
+      cncf-green-review-testing:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: DigInfra configurations intended for testing with the CNCF Green Reviews Working Group
+        has_projects: true
+        has_wiki: false  
+      community:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: The DigInfra Project Community
+        has_projects: true
+        has_wiki: false
+      contrib:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Community sandbox to test-drive ideas/projects/code
+        has_projects: true
+        has_wiki: false
+      dbg-go:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: "A go tool to work with DigInfra drivers build grid"
+        has_projects: true  
+      deploy-kubernetes:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Kubernetes deployment resources for Diginfra
+        has_projects: false
+        has_wiki: false
+      driverkit:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: "Kit for building Diginfra drivers: kernel modules or eBPF probes"
+        has_projects: true
+      ebpf-probe:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: eBPF probe for syscall events
+        has_projects: true
+      event-generator:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description:
+          Generate a variety of suspect actions that are detected by Diginfra
+          rulesets
+        has_projects: true
+      evolution:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Evolution process of The Diginfra Project
+        has_projects: true
+        has_wiki: false
+      diginfra:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Cloud Native Runtime Security
+        has_projects: true
+        has_wiki: false
+        homepage: https://diginfra.khulnasoft.com
+      diginfra-aws-terraform:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Terraform Module for Diginfra AWS Resources
+        default_branch: main
+        has_projects: true
+      diginfra-exporter:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Prometheus Metrics Exporter for Diginfra output events
+        has_projects: true
+      diginfra-website:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Source code of the official Diginfra website
+        has_projects: true
+        homepage: https://diginfra.khulnasoft.com
+      flycheck-diginfra-rules:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Diginfra Rules Syntax Checker for Emacs, Using Flycheck
+        default_branch: main
+        has_projects: true
+      diginfractl:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Administrative tooling for Diginfra
+        has_projects: true
+        has_wiki: false
+      diginfra-playground:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Web-application used to validate Diginfra rules and test against scap file
+        has_projects: true
+        has_wiki: false    
+      diginfrasidekick:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Connect Diginfra to your ecosystem
+        has_projects: true
+        has_wiki: false
+      diginfrasidekick-ui:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: A simple WebUI with latest events from Diginfra
+        has_projects: true
+        has_wiki: false
+      k8s-metacollector:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Fetches the metadata from kubernetes API server and dispatches them to Diginfra instances
+        has_projects: true
+        has_wiki: false  
+      kernel-crawler:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: A tool to crawl Linux kernel versions
+        has_projects: false
+        has_wiki: false
+      kernel-testing:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Ansible playbooks to provision firecracker VMs and run Diginfra kernel tests
+        has_projects: true
+        has_wiki: false  
+      kernel-module:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        has_projects: true
+      kilt:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: Kilt is a project that defines how to inject foreign apps into containers
+        has_projects: true
+        has_wiki: false
+      libs:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description:
+          libsinsp, libscap, the kernel module driver, and the eBPF driver
+          sources
+        has_projects: true
+        has_wiki: false
+      libs-sdk-go:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Go SDK for Diginfra libs
+        has_projects: true
+        has_wiki: false
+      libscap:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        has_projects: true
+      libsinsp:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: "System inspection library "
+        has_projects: true
+      pdig:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: ptrace-based event producer for udig
+        has_projects: true
+        has_wiki: false
+      peribolos-syncer:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Tool to synchronize Peribolos configuration with GitHub people sources of truth.
+        has_projects: true
+        has_wiki: false
+      pigeon:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Secrets and config manager for Diginfra's infrastructure
+        has_projects: true
+        has_wiki: false
+      plugin-sdk-cpp:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Diginfra plugins SDK for C++
+        has_projects: true
+      plugin-sdk-go:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Diginfra plugins SDK for Go
+        default_branch: main
+        has_projects: true
+      plugins:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Diginfra plugins registry
+        has_projects: true
+      rules:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Diginfra rule repository
+        has_projects: false
+        has_wiki: false
+      syscalls-bumper:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: A tool to automatically update supported syscalls in libs
+        has_projects: false
+        has_wiki: false
+      template-repository:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: Acts as a template for new repositories
+        has_projects: true
+      test-infra:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Diginfra workflow & testing infrastructure
+        has_projects: true
+        has_wiki: false
+        homepage: https://prow.diginfra.khulnasoft.com
+      testing:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: All-purpose test suite for Diginfra and its ecosystem
+        has_projects: true
+        has_wiki: false
+
+    teams:
+      admins:
+        description: admins of the org
+        maintainers:
+          - caniszczyk
+          - ldegio
+          - leogr
+          - thelinuxfoundation
+          - mstemm
+        privacy: closed
+        repos:
+          advocacy: admin
+      charts-maintainers:
+        description: maintainers of diginfra/charts
+        maintainers:
+          - leogr
+        members:
+          - cpanato
+          - Issif
+          - alacuku
+        privacy: closed
+        repos:
+          charts: maintain
+      client-go-maintainers:
+        description: maintainers of diginfra/client-go
+        maintainers:
+          - leogr
+        members:
+          - leodido
+        privacy: closed
+        repos:
+          client-go: maintain
+      client-py-maintainers:
+        description: maintainers of diginfra/client-py
+        members:
+          - leodido
+          - mmat11
+        privacy: closed
+        repos:
+          client-py: maintain
+      client-rs-maintainers:
+        description: maintainers of diginfra/client-rs
+        members:
+          - leodido
+        privacy: closed
+        repos:
+          client-rs: maintain
+      cncf-green-review-testing-maintainers:
+        description: maintainers of diginfra/cncf-green-review-testing
+        maintainers:
+          - incertum
+          - leogr
+          - LucaGuerra
+          - maxgio92
+        members: []
+        privacy: closed
+        repos:
+          cncf-green-review-testing: maintain 
+      community-maintainers:
+        description: maintainers of diginfra/community
+        maintainers:
+          - leogr
+        members:
+          - Issif
+          - araujof
+          - maxgio92
+          - terylt
+          - Andreagit97
+        privacy: closed
+        repos:
+          community: maintain
+      contrib-maintainers:
+        description: maintainers of diginfra/contrib
+        maintainers:
+          - leogr
+        members:
+          - maxgio92
+          - jasondellaluce
+        privacy: closed
+        repos:
+          contrib: maintain
+      core-maintainers:
+        description: Core maintainers of The Diginfra Project
+        maintainers:
+          - leogr
+          - mstemm
+        members:
+          - gnosek
+          - cpanato
+          - Issif
+          - FedeDP
+          - maxgio92
+          - zuc
+          - jasondellaluce
+          - Molter73
+          - LucaGuerra
+          - Andreagit97
+          - incertum
+          - alacuku
+        privacy: closed
+      dbg-go-maintainers:
+        description: maintainers of diginfra/dbg-go
+        maintainers:
+          - leogr
+        members:
+          - FedeDP
+          - maxgio92
+        privacy: closed
+        repos:
+          dbg-go: maintain  
+      deploy-kubernetes-maintainers:
+        description: maintainers of diginfra/deploy-kubernetes
+        maintainers:
+          - leogr
+        members:
+          - maxgio92
+          - zuc
+          - jasondellaluce
+        privacy: closed
+        repos:
+          deploy-kubernetes: maintain
+      driverkit-maintainers:
+        description: maintainers of diginfra/driverkit
+        members:
+          - leodido
+          - dwindsor
+          - FedeDP
+          - EXONER4TED
+          - Lowaiz
+        privacy: closed
+        repos:
+          driverkit: maintain
+      event-generator-maintainers:
+        description: maintainers of diginfra/event-generator
+        maintainers:
+          - leogr
+        members:
+          - FedeDP
+        privacy: closed
+        repos:
+          event-generator: maintain
+      evolution-maintainers:
+        description: maintainers of diginfra/evolution
+        maintainers:
+          - leogr
+        members:
+          - maxgio92
+          - jasondellaluce
+        privacy: closed
+        repos:
+          evolution: maintain
+      diginfra-aws-terraform-maintainers:
+        description: maintainers of diginfra/diginfra-aws-terraform
+        maintainers:
+          - ldegio
+          - leogr
+          - mstemm
+        members:
+          - zuc
+          - jasondellaluce
+        privacy: closed
+        repos:
+          diginfra-aws-terraform: maintain
+      diginfra-exporter-maintainers:
+        description: maintainers of diginfra/diginfra-exporter
+        maintainers:
+          - leogr
+        members:
+          - jasondellaluce
+        privacy: closed
+        repos:
+          diginfra-exporter: maintain
+      diginfra-maintainers:
+        description: maintainers of diginfra/diginfra
+        maintainers:
+          - leogr
+          - mstemm
+        members:
+          - FedeDP
+          - jasondellaluce
+          - Andreagit97
+          - incertum
+          - LucaGuerra
+        privacy: closed
+        repos:
+          diginfra: maintain
+      diginfra-website-maintainers:
+        description: maintainers of diginfra/diginfra-website
+        maintainers:
+          - leogr
+        members:
+          - Issif
+          - jasondellaluce
+          - vjjmiras
+          - LucaGuerra
+        privacy: closed
+        repos:
+          diginfra-website: maintain
+      flycheck-diginfra-rules-maintainers:
+        description: maintainers of diginfra/flycheck-diginfra-rules
+        maintainers:
+          - mstemm
+          - ewilderj
+        members:
+        privacy: closed
+        repos:
+          flycheck-diginfra-rules: maintain
+      diginfractl-maintainers:
+        description: maintainers of diginfra/diginfractl
+        maintainers:
+          - leogr
+        members:
+          - zuc
+          - maxgio92
+          - fededp
+          - cpanato
+          - alacuku
+        privacy: closed
+        repos:
+          diginfractl: maintain
+      diginfra-playground-maintainers:
+        description: maintainers of diginfra/diginfra-playground
+        maintainers:
+          - rohith-raju
+          - jasondellaluce
+          - leogr
+        members: []
+        privacy: closed
+        repos:
+          diginfra-playground: maintain     
+      diginfrasidekick-maintainers:
+        description: maintainers of diginfra/diginfrasidekick
+        maintainers:
+          - leogr
+        members:
+          - cpanato
+          - Issif
+          - fjogeleit
+        privacy: closed
+        repos:
+          diginfrasidekick: maintain
+      diginfrasidekick-ui-maintainers:
+        description: maintainers of diginfra/diginfrasidekick-ui
+        members:
+          - cpanato
+          - Issif
+          - fjogeleit
+        privacy: closed
+        repos:
+          diginfrasidekick-ui: maintain
+      github-maintainers:
+        description: maintainers of diginfra/.github
+        maintainers:
+          - leogr
+        members:
+          - maxgio92
+          - jasondellaluce
+        privacy: closed
+        repos:
+          .github: maintain
+      k8s-metacollector-maintainers:
+        description: maintainers of diginfra/k8s-metacollector
+        maintainers:
+          - alacuku
+          - andreagit97
+          - leogr
+          - Issif
+        members: []
+        privacy: closed
+        repos:
+          k8s-metacollector: maintain
+      kernel-crawler-maintainers:
+        description: maintainers of diginfra/kernel-crawler
+        maintainers:
+          - leogr
+        members:
+          - FedeDP
+          - maxgio92
+          - zuc
+          - EXONER4TED
+        privacy: closed
+        repos:
+          kernel-crawler: maintain
+      kernel-testing-maintainers:
+        description: maintainers of diginfra/kernel-testing
+        maintainers:
+          - alacuku
+          - Andreagit97
+          - FedeDP
+          - therealbobo
+        members: []
+        privacy: closed
+        repos:
+          kernel-testing: maintain    
+      kilt-maintainers:
+        description: maintainers of diginfra/kilt
+        members:
+          - gnosek
+          - leodido
+          - admiral0
+        privacy: closed
+        repos:
+          kilt: maintain
+      libs-maintainers:
+        description: maintainers of diginfra/libs
+        maintainers:
+          - leogr
+          - mstemm
+          - jasondellaluce
+        members:
+          - gnosek
+          - FedeDP
+          - Molter73
+          - LucaGuerra
+          - Andreagit97
+          - hbrueckner
+          - incertum
+        privacy: closed
+        repos:
+          libs: maintain
+      libs-sdk-go-maintainers:
+        description: maintainers of diginfra/libs-sdk-go
+        maintainers:
+          - leogr
+        members:
+          - araujof
+          - jasondellaluce
+          - terylt
+          - Andreagit97
+        privacy: closed
+        repos:
+          libs-sdk-go: maintain
+      machine_users:
+        description: bots
+        maintainers:
+          - poiana
+        privacy: closed
+        repos:
+          .github: admin
+          charts: admin
+          client-go: admin
+          client-py: admin
+          client-rs: admin
+          cncf-green-review-testing: admin
+          community: admin
+          contrib: admin
+          dbg-go: admin
+          deploy-kubernetes: admin
+          driverkit: admin
+          event-generator: admin
+          evolution: admin
+          diginfra: admin
+          diginfra-aws-terraform: admin
+          diginfra-exporter: admin
+          diginfra-website: admin
+          diginfractl: admin
+          diginfra-playground: admin
+          diginfrasidekick: admin
+          diginfrasidekick-ui: admin
+          flycheck-diginfra-rules: admin
+          k8s-metacollector: admin
+          kernel-crawler: admin
+          kernel-testing: admin
+          kilt: admin
+          libs: admin
+          libs-sdk-go: admin
+          pdig: admin
+          peribolos-syncer: admin
+          pigeon: admin
+          plugin-sdk-cpp: admin
+          plugin-sdk-go: admin
+          plugins: admin
+          syscalls-bumper: admin
+          test-infra: admin
+          testing: admin
+      pdig-maintainers:
+        description: maintainers of diginfra/pdig
+        maintainers:
+          - ldegio
+        members:
+          - gnosek
+          - leodido
+        privacy: closed
+        repos:
+          pdig: maintain
+      peribolos-syncer-maintainers:
+        description: maintainers of diginfra/perperibolos-syncer
+        maintainers:
+          - maxgio92
+          - leogr
+          - FedeDP
+        members: []
+        privacy: closed
+        repos:
+          peribolos-syncer: maintain
+      pigeon-maintainers:
+        description: maintainers of diginfra/pigeon
+        maintainers:
+          - jasondellaluce
+        members:
+          - cappellinsamuele
+          - fededp
+        privacy: closed
+        repos:
+          pigeon: maintain
+      plugin-sdk-cpp-maintainers:
+        description: maintainers of diginfra/plugin-sdk-cpp
+        maintainers:
+          - ldegio
+          - leogr
+          - mstemm
+        members:
+          - leodido
+          - FedeDP
+        privacy: closed
+        repos:
+          plugin-sdk-cpp: maintain
+      plugin-sdk-go-maintainers:
+        description: maintainers of diginfra/plugin-sdk-go
+        maintainers:
+          - leogr
+        members:
+          - jasondellaluce
+        privacy: closed
+        repos:
+          plugin-sdk-go: maintain
+      plugins-maintainers:
+        description: maintainers of diginfra/plugins
+        maintainers:
+          - leogr
+          - mstemm
+        members:
+          - jasondellaluce
+          - ahmedameenaim
+          - sboschman
+        privacy: closed
+        repos:
+          plugins: maintain
+      rules-maintainers:
+        description: maintainers of diginfra/rules
+        maintainers:
+          - leogr
+          - LucaGuerra
+        members:
+          - fededp
+          - jasondellaluce
+          - andreagit97
+          - mstemm
+          - incertum
+          - darryk10
+        privacy: closed
+        repos:
+          rules: maintain
+      syscalls-bumper-maintainers:
+        description: maintainers of diginfra/syscalls-bumper
+        maintainers:
+          - leogr
+        members:
+          - FedeDP
+          - Andreagit97
+        privacy: closed
+        repos:
+          syscalls-bumper: maintain
+      test-infra-maintainers:
+        description: maintainers of diginfra/test-infra
+        maintainers:
+          - leogr
+        members:
+          - maxgio92
+          - zuc
+          - jonahjon
+          - fededp
+        privacy: closed
+        repos:
+          test-infra: maintain
+      testing-maintainers:
+        description: maintainers of diginfra/testing
+        maintainers:
+          - jasondellaluce
+          - leogr
+        members:
+          - andreagit97
+          - lucaguerra
+        privacy: closed
+        repos:
+          testing: maintain
